@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hangman" type="id" />
+    <item name="word" type="id" />
+    <item name="a" type="id" />
+    <item name="b" type="id" />
+    <item name="c" type="id" />
+    <item name="d" type="id" />
+    <item name="e" type="id" />
+    <item name="g" type="id" />
+    <item name="h" type="id" />
+    <item name="i" type="id" />
+    <item name="j" type="id" />
+    <item name="l" type="id" />
+    <item name="m" type="id" />
+</resources>
