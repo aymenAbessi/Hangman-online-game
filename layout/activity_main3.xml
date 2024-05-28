@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity3">
+
+  <TextView
+      android:id="@+id/hiddenWord"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="260dp"
+      android:text="_______"
+
+      android:textSize="36sp"
+      app:fontFamily="casual" />
+
+  <ImageView
+      android:id="@+id/hang"
+      android:layout_width="182dp"
+      android:layout_height="228dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="48dp"
+      app:srcCompat="@drawable/question" />
+
+  <GridLayout
+      android:id="@+id/gridLayout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_centerVertical="true"
+      android:layout_gravity="center"
+      android:layout_marginTop="365dp"
+      android:columnCount="5"
+      android:rowCount="5">
+
+  </GridLayout>
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="53dp"
+      android:layout_height="50dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginStart="14dp"
+      app:srcCompat="@drawable/heart" />
+
+  <TextView
+      android:id="@+id/nbOfTime"
+      android:layout_width="20dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/imageView2"
+      android:layout_marginStart="-33dp"
+      android:layout_marginTop="1dp"
+      android:layout_toEndOf="@+id/imageView2"
+      android:text="7" />
+
+  <ImageView
+      android:id="@+id/imgHint"
+      android:layout_width="64dp"
+      android:layout_height="48dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="6dp"
+      android:layout_marginEnd="8dp"
+      app:srcCompat="@drawable/iconhint" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="59dp"
+      android:layout_marginEnd="27dp"
+      android:text="Hint" />
+
+  <TextView
+      android:id="@+id/timer"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="28dp"
+      android:text="0"
+      android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HighScores">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="355dp">
+
+
+        <LinearLayout
+            android:id="@+id/Easy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="128dp"
+            android:background="@color/easyColor"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewPlayerNameEasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player Name: John Doe"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewLevelEasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Level: Easy"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTimesPlayedEasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="NB of lifes rest: 5"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewWordEasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Word: Example"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTimeEasy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Remaining Time: 30 s"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="321dp"
+            android:background="@color/mediumColor"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewPlayerNameMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player Name: Jane Doe"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewLevelMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Level: Medium"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTimesPlayedMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="NB of lifes rest: 8"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewWordMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Word: Challenge"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTimeMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Remaining Time: 30 s"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Hard"
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:layout_below="@+id/Medium"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="47dp"
+            android:background="@color/hardColor"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewPlayerNameHard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player Name: Alex Doe"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewLevelHard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Level: Hard"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTimesPlayedHard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="NB of lifes rest: 12"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewWordHard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Word: Masterpiece"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textViewTimeHard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Remaining Time: 30 s"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="158dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="157dp"
+            app:srcCompat="@drawable/one" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
